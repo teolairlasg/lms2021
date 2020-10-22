@@ -5,7 +5,27 @@ table {
 
 td, th {
     border-style: solid;
-    padding: 15px;
+    padding: 25px;
     border-width: 1px;
     border-color: red;
+}
+
+td {
+    color: darkblue;
+    padding: 5px;
+}
+
+th {
+    background-color: aqua;
+    text-align: start;
+}
+
+tfoot{
+    background-color: bisque;
+    font-weight: bold;
+    text-align: right;
+}
+
+#celdaMesa{
+    font-weight: bold;
 }
