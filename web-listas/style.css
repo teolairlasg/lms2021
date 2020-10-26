@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightcyan;
+}
+
+ol{
+    border-style: groove;
+    width: 60%;
+    list-style-type: decimal-leading-zero;
+}
+
+#celdaD{
+    color: red;
+}
+
+#textoB{
+    color: seagreen;
+}
+
+.listaRomanos{
+    list-style-type: upper-roman;
+}
+
+.listaAzul{
+    color: skyblue;
+}
