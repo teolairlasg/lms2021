@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header, nav, main, footer{
+    padding: 15px;
+    border-style: solid;
+    border-width: 1px;
+}
+header{
+    height: 60px;
+}
+
+nav{
+    height: 50px;
+}
+main{
+    height: calc(100vh - 60px - 50px - 50px);
+    overflow: auto;
+}
+footer{
+    height: 50px;
+}
