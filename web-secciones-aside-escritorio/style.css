@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+nav, header, footer{
+    height: 50px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+aside, main{
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    /* Todo el alto de la pantalla menos los 150px del nav, el header y el footer */
+    height: calc( 100vh - 150px );
+    overflow: auto;
+}
+
+aside{
+    width: 100px;
+    float: left;
+    
+}
+
+main{
+    width: calc(100% - 100px);
+    float: right;
+    padding: 3px;
+}
+
+footer{
+    clear: both;
+}
+
+aside > a{
+    display: block;
+    background-color: skyblue;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+    /* padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 3px;
+    padding-left: 3px; */
+    /* padding: 5px 3px 5px 3px; */
+    padding: 5px 3px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    border-color: skyblue;
+}
+
+aside > a:hover{
+    border-color: black;
+}
+
+aside > a:active{
+    color: white;
+}
+
+main > section {
+    margin-bottom: 50px;
+    border-bottom-style: solid;
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+}
+
+section > h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: wheat;
+    padding: 5px;
+}
+/* Cada articulo tiene un titulo en h2 un elemento multimedia y un párrafo de descripción */
+article {
+    margin-bottom: 20px;
+}
+/* título */
+article > h2 {
+
+}
+
+article > p{
+    text-align: end;
+    width: 90%;
+    margin: auto;
+}
+/* videos, e iframes */
+article > video, article > iframe {
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+article > audio{
+    display: block;
+    margin-left: 5%;
+}
