@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+}
+.tarjeta {
+    height: 200px;
+    margin-right: 1%;
+    margin-left: 1%;
+    width: 48%;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 10px;
+    transition-duration: 1000ms;
+}
+
+.tarjeta:hover{
+    width: 50%;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: lightslategray;
+}
+
+.col-dcha{
+    float: right;
+}
+
+.col-izda{
+    float: left;
+}
+
+#div1 {
+    background-color: lightgreen;
+}
+
+#p1 {
+    background-color: lightgrey;
+}
+
+.enlacesWeb {
+    display: inline-block;
+    min-width: 100px;
+    padding: 5px;
+    background-color: lightpink;
+    margin-top: 5px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
