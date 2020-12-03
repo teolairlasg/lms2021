@@ -1,0 +1,9 @@
+div{
+    background-color: aqua;
+    padding: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
