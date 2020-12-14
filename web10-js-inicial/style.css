@@ -1,0 +1,17 @@
+body{
+    background-color: bisque;
+}
+
+p{
+    color: blue;
+}
+
+.importante{
+    background-color: yellow;
+    color: red;
+}
+
+#parrafo1{
+    color: green;
+}
+
